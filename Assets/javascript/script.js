@@ -1,8 +1,3 @@
-//Global variable
-let currentDay;
-let textAreaInput;
-let textAreaHour;
-
 //JQuery will detect the readiness of the page and will only manipulate the page when it is ready
 $(document).ready(function () {
 
@@ -37,8 +32,6 @@ $(document).ready(function () {
         });
     };
 
-
-
     //Created a click function for the save button
     $(".saveBtn").click(function () {
 
@@ -57,23 +50,22 @@ $(document).ready(function () {
     //Making the input text persist after the page has been reloaded
     function renderStoredInputs() {
 
-
+        //Here we are targeting each element with the CSS class description
         $(".description").each(function () {
 
-            
+            //Storing the text values from the index.html file that have the CSS class of hour into a variable
+            //We can then use hourToCheck as our key when retrieving from local storage
             let hourToCheck = $(this).siblings(".hour").text();
-            console.log(hourToCheck)
+            // console.log(hourToCheck)
 
-            var inputId = $(this).val(localStorage.getItem(hourToCheck));
-            // var inputId = $(this).val(localStorage.getItem(textAreaHour));
+            //Getting the values from local storage by passing the key
+            let inputId = $(this).val(localStorage.getItem(hourToCheck));
             // console.log(inputId)
         });
     };
 
-
-
-
     //Calling the textAreaColor function to execute
     textAreaColor();
+    //Calling the renderStoredInputs function so that the text will remain after the page is refreshed
     renderStoredInputs();
 });
