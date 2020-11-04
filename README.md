@@ -18,7 +18,7 @@ The user is able to add reminders for each time block and click the save button.
 
 <h2>Screenshot</h2>
 
-![](/assets/images/Screenshot.gif)
+![](/assets/images/Screenshot.PNG)
 
 <p>
 To view this web application please click <a href="https://hustinkava.github.io/Work-Day-Schedule/" rel="nofollow">here</a>
