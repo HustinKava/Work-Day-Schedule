@@ -12,6 +12,10 @@ Depending on the hour of the day, the time blocks will be color coded. Past is r
 
 The user is able to add reminders for each time block and click the save button. Once the reminder has been saved, the information will then remain even once the page has been refreshed.</p>
 
+<h2>Technologies Used</h2>
+
+<p>For this assignment I used HTML, CSS, JavaScript, Bootstrap, jQuery, Font Awesome and Moment.js</p>
+
 <h2>My Experience</h2>
 
 <p>This assignment was fun and challenging at the same time. I enjoyed implementing a function to color the time blocks depending on the current time using moment.js. I learned a lot more about local storage and now understand more about setting keys with values and also getting keys with values.</p>
@@ -20,6 +24,12 @@ The user is able to add reminders for each time block and click the save button.
 
 ![](/Assets/images/Screenshot.PNG)
 
+![](/Assets/images/Screenshot2.PNG)
+
 <p>
 To view this web application please click <a href="https://hustinkava.github.io/Work-Day-Schedule/" rel="nofollow">here</a>
+</p>
+
+<p>
+Click <a href="https://www.linkedin.com/in/hustin-kava" rel="nofollow">here</a> to connect with me on LinkedIn.
 </p>
